@@ -9,11 +9,24 @@ body {
   justify-content: center;
 }
 
-.Header {
-  border-bottom: 1px solid black;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  margin-bottom: 6px;
+.Header__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Header__subtitle {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.Header__subtitle a {
+  color: #01ff70;
+  text-decoration: none;
+}
+
+.Header__subtitle a:hover {
+  text-decoration: underline;
 }
 
 .Header__message {
